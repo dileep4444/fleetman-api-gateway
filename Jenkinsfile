@@ -16,7 +16,7 @@ pipeline {
       stage('Preparation') {
          steps {
             cleanWs()
-            git url: "https://github.com/subhashmaddali/fleetman-api-gateway.git"
+            git url: "https://github.com/dileep4444/fleetman-api-gateway.git"
          }
       }
  stage('Testing') {
