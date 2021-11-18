@@ -4,7 +4,7 @@ pipeline {
     maven 'mvn'
   }
    environment {
-     // You must set the following environment variables
+     // You must set following environment variables
      // ORGANIZATION_NAME
      // YOUR_DOCKERHUB_USERNAME (it doesn't matter if you don't have one)
      MAVEN_HOME = tool name: 'mvn'
